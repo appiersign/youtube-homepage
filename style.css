@@ -1,0 +1,143 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  background-color: white;
+  width: 1024px;
+  min-height: 500px;
+  margin: -7px auto 0 auto;
+}
+
+.auto-width {
+  width: auto;
+}
+
+.h45 {
+  height: 45px;
+}
+
+#nav {
+  height: 50px;
+}
+
+#nav div {
+  display: inline-block;
+}
+
+#search-form {
+  display: inline;
+}
+
+#sign-in {
+  color: white;
+  background-color: rgb(22, 122, 198);
+  box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+  padding: 10px;
+}
+
+#language {
+  background-color: #167ac6;
+}
+
+.white {
+  background-color: white;
+}
+
+main {
+  background-color: #eeeeee;
+  padding-top: 20px;
+}
+
+#video {
+  width: 700px;
+  height: 1200px;
+}
+
+#recommendations-container {
+  width: 300px;
+  min-height: 300px;
+  float: right;
+}
+
+#recommendations-header {
+  width: auto;
+  height: 30px;
+}
+
+#recommendations-header div {
+  width: 150px;
+}
+
+.recommendations {
+  width: 100%;
+  min-height: 400px;
+}
+
+.recommendation {
+  height: 100px;
+}
+
+.recommendation-text h5 {
+    margin-bottom: 10px;
+}
+
+.recommendation-image {
+  width: 180px;
+}
+
+.word-wrap {
+  word-wrap: break-word;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.p-10 {
+  padding: 10;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.faint-text {
+    font-size: .6em;
+    color: #767676;
+    margin-top: -5px;
+}
+
+video {
+    width: 96%;
+    background-color: black;
+}
+
+#video-controls {
+    width: 96%;
+    background-color: black;
+    height: 40px;
+}
+
+#progress {
+    width: 90%;
+    height: 2px;
+    ba
+}
