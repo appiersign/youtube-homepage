@@ -8,6 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: solid #999999;
+  min-height: 800px;
 }
 
 #menu-icon {
@@ -60,4 +61,39 @@ header {
   border: solid #167AC6;
   height: 40px;
   margin: 0;
+}
+main {
+  width: auto;
+  margin-top: 10px;
+}
+#left {
+  background-color: white;
+  width: 69%;
+  height: 200px;
+  /* margin-left: auto;  */
+  float: left;
+}
+
+#right {
+  background-color: white;
+  width: 29%;
+  height: 200px;
+  /* margin-right: auto; */
+  float: right;
+}
+#up-next {
+margin: 0;
+}
+#recommendations {
+}
+video {
+background-color: black;
+width: 100%;
+height: 340px;
+margin-bottom: 10px;
+}
+#video-details{
+  width: 100%;
+  height: 150px;
+  background-color: white;
 }
