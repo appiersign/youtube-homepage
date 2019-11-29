@@ -4,12 +4,60 @@ body {
 }
 
 #content {
-  background-color: white;
-  width: 50%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
+  border: solid #999999;
+}
+
+#menu-icon {
+  width: 20px;
 }
 
 #page-logo {
-  width: 10%;
+  width: 80px;
+  height: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul {
+  margin-top: -1px;
+  padding-bottom: 5px;
+}
+
+header {
+  width: auto;
+  height: 50px;
+  background-color: white;
+}
+
+#search-form {
+  width: 550px;
+}
+
+#search-box {
+  width: 450px;
+}
+
+#header-line {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 10px;
+}
+
+#language {
+  height: 40px;
+  width: 100%;
+  background-color: #167AC6;
+}
+
+#info {
+  background-color: white;
+  width: auto;
+  border: solid #167AC6;
+  height: 40px;
+  margin: 0;
 }
