@@ -86,11 +86,11 @@ margin: 0;
 }
 #recommendations {
 }
-video {
+#video {
 background-color: black;
 width: 100%;
 height: 340px;
-margin-bottom: 10px;
+margin-bottom: 15px;
 }
 #video-details{
   width: 100%;
