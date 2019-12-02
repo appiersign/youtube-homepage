@@ -75,15 +75,17 @@ main {
 
 #right {
   background-color: white;
-  width: 29%;
+  width: 305px;
   height: 200px;
   float: right;
+  position: relative;
 }
 #up-next {
 margin: 0;
 }
 #recommendations {
 }
+
 #video {
 background-color: black;
 width: 100%;
