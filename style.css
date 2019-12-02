@@ -8,7 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: solid #999999;
-  min-height: 800px;
+  min-height: 1000px;
 }
 
 #menu-icon {
@@ -76,7 +76,7 @@ main {
 #right {
   background-color: white;
   width: 305px;
-  height: 200px;
+  min-height: 200px;
   float: right;
   position: relative;
 }
@@ -147,7 +147,22 @@ ul li i {
   padding-left: 10px;
 }
 
+.pl10 {
+  padding-left: 10px;
+}
+
 #subscribe-btn {
   background-color: #EF4E17;
   color: white;
+}
+
+.recommendations ul li img{
+  width: 100%;
+  margin-left: -30px;
+  margin-top: -20px;
+}
+
+.recommendations-info {
+  margin-right: 40px;
+  margin-top: -100px;
 }
