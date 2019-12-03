@@ -183,6 +183,10 @@ ul li i {
   width: 95%;
 }
 
+.width-100 {
+  width: 100%;
+}
+
 .ml-180{
   margin-left: -180px;
 }
