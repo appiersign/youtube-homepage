@@ -7,12 +7,12 @@ We as the Authors have added a Live Demo that helps anyone to briefly preview wh
 # Getting Started
 Worked with the text editor and an in-built Live Server
 # Authors
-# Author1  
+## Author1  
 Github:   https://github.com/appiersign  
 Twitter:  https://twitter.com/appiersign  
 LinkedIn: https://www.linkedin.com/in/solomon-appier-sign/  
 Facebook: https://www.facebook.com/niisign  
-Author2  
+## Author2  
 Github:   https://github.com/MotivateJ  
 Twitter:  https://twitter.com/JulieCh46062473  
 LinkedIn: www.linkedin.com/in/julia-wangui  
