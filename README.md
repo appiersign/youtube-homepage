@@ -16,6 +16,13 @@ Author2
 Github:   https://github.com/MotivateJ
 Twitter:  @julieChris
 LinkedIn: www.linkedin.com/in/julia-wangui
+# contributing
+Any contributions, issues and feature requests are welcome!
+Feel free to check the issues page.
+# Show your Support
+Give a ⭐️ if you like this project!
+# Acknowledgements
+We would like to express our special thanks of gratitude to Microverse founder Ariel Camus for giving us the opportunity to be here and work on this project. We also owe our deep gratitude to https://github.com/pelzolga123 who took keen interest on our project and guided us all along until the completion through code review and suggestions on developing a great project. Finally, we are grateful to the Odin project for providing the platform for us to make our contributions.
 
 
 
