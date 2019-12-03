@@ -84,8 +84,6 @@ main {
 #up-next {
 margin: 0;
 }
-#recommendations {
-}
 
 #video {
 background-color: black;
@@ -179,4 +177,12 @@ ul li i {
 
 #sign-in-btn {
   padding: 10px;
+}
+
+.width-95{
+  width: 95%;
+}
+
+.ml-180{
+  margin-left: -180px;
 }
