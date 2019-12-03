@@ -8,9 +8,17 @@ We as the Authors have added a Live Demo that helps anyone to briefly preview wh
 
 # Authors
 # Author1
-https://github.com/MotivateJ
+Github: 
+Twitter:
+LinkedIn:
 
-This authors of this project are Sign and Julia 
+Author2
+Github:   https://github.com/MotivateJ
+Twitter:  @julieChris
+LinkedIn: www.linkedin.com/in/julia-wangui
+
+
+
 Contributions, issues and feature requests are welcome!
 Feel free to check the issues page.
 Give a ⭐️ if you like this project!
