@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #eeeeee;
   font-family: Roboto;
@@ -69,11 +74,14 @@ main {
 }
 
 #right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: white;
-  width: 305px;
-  min-height: 200px;
+  width: 29%;
+  min-height: 400px;
   float: right;
-  position: relative;
+  padding: 10px;
 }
 
 #up-next {
@@ -145,14 +153,20 @@ main {
   color: white;
 }
 
+.recommendations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
 .recommendations ul li img {
   margin-left: -30px;
   margin-top: -20px;
 }
 
 .recommendations-info {
-  margin-right: 40px;
-  margin-top: -100px;
+  margin-right: 3rem;
 }
 
 .blue {
@@ -165,6 +179,10 @@ main {
 
 #sign-in-btn {
   padding: 10px;
+}
+
+.width-60 {
+  width: 60%;
 }
 
 .width-95 {
