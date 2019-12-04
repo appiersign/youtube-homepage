@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Youtube Homepage</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="content">
+            <header class="display-flex justify-content-space-between">
+                <a href="">
+                    <img id="page-logo"
+                        src="./assets/images/youtube-logo-16x9jpg.jpg"
+                        alt="youtube-logo">
+                </a>
+                <form id="search-form">
+                    <input placeholder="Search" type="text"
+                        id="search-box">
+                    <button type="submit" value="search"><i
+                            class="fas fa-search gray-icons"></i></button>
+                </form>
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="gray-icons">
+                                <i class="fas fa-upload"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="gray-icons">
+                                <i class="fas fa-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="gray-icons">
+                                <i class="fas fa-user-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="sign-in-btn" class="blue white-text">
+                                Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="header-line"></div>
+            <div id="language"></div>
+            <div id="info"></div>
+            <main class="display-flex">
+                <div id="left">
+                    <div id="video">
+                        <iframe class="width-100" height="340"
+                            src="https://www.youtube.com/embed/UCbVh7-zyZ8"
+                            allow="accelerometer; autoplay; encrypted-media;
+                            gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-details">
+                        <h5>Contributing to Open Source Part I: The Easy Way</h5>
+                        <div id="user-details">
+                            <img src="./assets/images/download.jpeg"
+                                alt="channel
+                                avatar" class="float-left">
+                            <ul id="channel-info" class="no-list-style">
+                                <li><strong>Sign & Julia</strong></li>
+                                <li><button id="subscribe-btn" class="flat-btn"><i
+                                            class="fab
+                                            fa-youtube"></i>Subscribe </button>799</li>
+                            </ul>
+                        </div>
+                        <div id="views-count" class="display-flex flex-direction-row-reverse mr10">15475views</div>
+                        <hr class="width-100">
+                        <div class="width-95 mt10 display-flex justify-content-space-between">
+                            <ul class="no-list-style">
+                                <li class="inline-list gray-icons">
+                                    <i class="fas fa-plus"></i>
+                                    <button class="flat-btn">Add to</button>
+                                </li>
+                                <li class="inline-list gray-icons">
+                                    <i class="fas fa-share"></i>
+                                    <button class="flat-btn">Share</button>
+                                </li>
+                                <li class="inline-list gray-icons">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                    <button class="flat-btn">More</button>
+                                </li>
+                            </ul>
+                            <ul class="no-list-style inline-list float-right">
+                                <li class="inline-list gray-icons">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    like
+                                </li>
+                                <li class="inline-list gray-icons">
+                                    <i class="fas fa-thumbs-down"></i>
+                                    dislike
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="video-details display-flex">
+                        <h5>Published on Feb 27, 2014</h5>
+                        <p>How do you contribute to open source? In this video,
+                            I'll describe the easiest way to make a simple
+                            contribution to an open source project -- without
+                            using the command line, a text editor, "forking a
+                            repo", or even touching Git outside of Github. I'll
+                            also describe what kinds of contributions open
+                            source software projects are typically looking for.
+                            As an example, I use submitting a student solution
+                            to a web development exercise from The Odin Project,
+                            a free online curriculum for learning web
+                            development with Ruby on Rails. You can find more
+                            information about that project at
+                            http://theodinproject.com.
+                        </p>
+                    </div>
+                </div>
+                <div id="right" class="display-flex">
+                    <div id="up-next">
+                        <h5 class="pl10">Up Next</h5>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info no-list-style">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                    <div class="recommendations display-flex">
+                        <img class="width-60"
+                            src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+                            alt="">
+                        <div class="recommendations-info no-list-style">
+                            <p>video title</p>
+                            <p>channel name</p>
+                            <p>123views</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer></footer>
+        </div>
+        <script src="https://kit.fontawesome.com/b53238e3c8.js"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
