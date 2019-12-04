@@ -33,9 +33,7 @@ header {
 }
 
 #search-form {
-  width: 650px;
-  margin-left: 200px;
-  margin-right: 100px;
+  width: 40%;
 }
 
 #search-box {
